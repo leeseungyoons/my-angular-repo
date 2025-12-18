@@ -1,4 +1,4 @@
-﻿version: 0.2
+version: 0.2
 phases:
   install:
     runtime-versions:
@@ -8,7 +8,9 @@ phases:
   build:
     commands:
       - npm run build
+
 artifacts:
-  base-directory: dist
+  base-directory: dist/my-angular-project
   files:
     - '**/*'
+
